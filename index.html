@@ -6,11 +6,22 @@
     <title>Weather</title>
 </head>
 <body>
+<div>
+    <form id="changeCity">
+        <label for="cityName"> Change City</label>
+        <input type="text" id="cityName">
+        <input type="submit" value="Save changes">
+    </form>
+    <br>
+
+</div>
+<hr>
 <div id="weather">
     <div id="description"></div>
     <h1 id="temp"></h1>
     <div id="location"></div>
 </div>
+<script src="classes/LS.js"></script>
 <script src="classes/weather.js"></script>
 <script src="classes/UI.js"></script>
 <script src="app.js"></script>
